@@ -6,7 +6,9 @@ package COMP3111_Lab1;
 public class Library {
     
 	public static void main(String agr[]) {
-		System.out.println("Hello, World!");
+		Library lib = new Library();
+		if (lib.someLibraryMethod())
+			System.out.println("Hello, World!");
 	}
 	
 	public boolean someLibraryMethod() {
